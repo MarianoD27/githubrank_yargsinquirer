@@ -1,0 +1,28 @@
+{
+  "name": "githubrank",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ghrank": "./index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@inquirer/prompts": "^7.2.0",
+    "axios": "^1.7.9",
+    "boxen": "^8.0.1",
+    "cli-cursor": "^5.0.0",
+    "colors": "^1.4.0",
+    "inquirer-date-prompt": "^3.0.0",
+    "inquirer-datepicker": "^2.0.2",
+    "inquirer-datepicker-prompt": "^0.4.3",
+    "pad": "^3.3.0",
+    "yargs": "^17.7.2"
+  }
+}
